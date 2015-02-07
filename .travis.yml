@@ -1,0 +1,23 @@
+env:
+  global:
+  - secure: VowwVAjVqXSP9wZytWJctcrBHZ/GX6MDdnoLf2A2J24SBpjESBFfFxbpwNnCUyXwQIkRWlfTafevSXqYLzXz8rr0W0wRbif21L5pBqUPGdUS+SJboWwScoCbQs2OnEEOqrVEReYLzsFsmyKAszT/Ii+Rz1xnZFOjxGh1x4D11tI=
+  - secure: dOgWLjcIXlGAgFoeKtYe3lqKQqioJhN3xrovmRQUZjkV5t8DhtkEWGhIs36mGUQ+lW/bQ5C1miNxI2RB4UAixW98eiZS5Fg/Ksp135t0WwS7mXN8llncKEaMakrBJsPGF28AZgAiWmw6F4HEFVQ65NAoVri845uj7FpKJNChC5o=
+  - secure: cizcIlanqpmSEq6RUtqYuyk58Gt6HI3BtNZQl6PA9Y4IUXUn++v8KZOPB2RsX/FbfOjb/sgl8uzTaNXXFH8Oh5abis17AJjj1hRgzOdzqYdt4Hi1FEEWhk4PWFB/f6Cm7vtD55GNNmNPoynbUkugvBsi7x7XvwYhcZlxy13qK6Y=
+
+notifications:
+  email: false
+  
+ language: cpp
+ 
+ before_install:
+  - git config --global user.email "${GH_MAIL}"
+  - git config --global user.name "${GH_USER}"
+  - git clone https://${GH_TOKEN}@github.com/KalleDK/KTIB_Rapport
+  - cd KTIB_Rapport/
+  - git rm -rf Latex
+  - git rm -rf Projektrapporten
+  - cp -r ../Projektrapporten .
+  - cp -r ../Latex .
+  - git add -f .
+  - git commit -m "Manual"
+  - git push origin master
