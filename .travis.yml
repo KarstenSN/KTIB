@@ -1,15 +1,22 @@
 env:
   global:
-  - secure: VowwVAjVqXSP9wZytWJctcrBHZ/GX6MDdnoLf2A2J24SBpjESBFfFxbpwNnCUyXwQIkRWlfTafevSXqYLzXz8rr0W0wRbif21L5pBqUPGdUS+SJboWwScoCbQs2OnEEOqrVEReYLzsFsmyKAszT/Ii+Rz1xnZFOjxGh1x4D11tI=
-  - secure: dOgWLjcIXlGAgFoeKtYe3lqKQqioJhN3xrovmRQUZjkV5t8DhtkEWGhIs36mGUQ+lW/bQ5C1miNxI2RB4UAixW98eiZS5Fg/Ksp135t0WwS7mXN8llncKEaMakrBJsPGF28AZgAiWmw6F4HEFVQ65NAoVri845uj7FpKJNChC5o=
-  - secure: cizcIlanqpmSEq6RUtqYuyk58Gt6HI3BtNZQl6PA9Y4IUXUn++v8KZOPB2RsX/FbfOjb/sgl8uzTaNXXFH8Oh5abis17AJjj1hRgzOdzqYdt4Hi1FEEWhk4PWFB/f6Cm7vtD55GNNmNPoynbUkugvBsi7x7XvwYhcZlxy13qK6Y=
+    - secure: RfSTgywOhS7ohmTTLGyqaC2RCD+Mx0aylrO2qCYU/0UQMpdGXnG0SakXYeqEe+L0RWqPFQoQ68jdYLYat//RyWTwyVVKciTJif+Cu7cFN03fQtds69A5sy5anH0MTy3tzTh4Ldtm61UDoCXK5aFyseYH9Gv65wQk+BYsaYKRs7c=
+    - secure: TML4+pujHxptuY3ekyf7pNdFEMTEDRoqeJhAAjSFwxCpzgME84A+Efb3nyXm/3Ue5jkmuxLxRoyGbja4lb78i94ObD/g2dUn/Qm92APCChCvc07tps0mWZrET1EoXFHo1QCzzm97MjTv/cD1F1ROw/ZEbFDaTTKQDqNAuftdYn4=
+    - secure: bTh6ycm70aLQlgGctT3nibnlSHlAO7gSYxX+5FX/mota6/0JgORXAXUgc/tbZr3HbFga6oDJ/axyRev6jZilhiKH+vGNQNzhfWbsHtzOKEW5IBeJgytHyi4o9/twwNrmCvBPWm6grFqKEjtqQKcSKyz73tl7P/cgBDLywSEpAA8=
 
+branches:
+  only:
+    - master
+  
 notifications:
   email: false
   
- language: cpp
+language: cpp
  
- before_install:
+compiler:
+   - gcc
+ 
+before_install:
   - git config --global user.email "${GH_MAIL}"
   - git config --global user.name "${GH_USER}"
   - git clone https://${GH_TOKEN}@github.com/KalleDK/KTIB_Rapport
@@ -21,3 +28,6 @@ notifications:
   - git add -f .
   - git commit -m "Manual"
   - git push origin master
+  
+install:
+   - cd ${TRAVIS_BUILDDIR}
