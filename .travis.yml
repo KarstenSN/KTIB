@@ -19,15 +19,7 @@ compiler:
 before_install:
   - git config --global user.email "${GH_MAIL}"
   - git config --global user.name "${GH_USER}"
-  - git clone https://${GH_TOKEN}@github.com/KalleDK/KTIB_Rapport
-  - cd KTIB_Rapport/
-  - git rm -rf Latex
-  - git rm -rf Projektrapporten
-  - cp -r ../Projektrapporten .
-  - cp -r ../Latex .
-  - git add -f .
-  - git commit -m "Travis CI"
-  - git push origin master
+  - ./.travis-Projektrapport.sh
   
 script:
    - echo "Done"
