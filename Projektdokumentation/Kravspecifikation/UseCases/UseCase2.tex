@@ -1,0 +1,45 @@
+\subsection{Usecase 2}
+Beskrivelse af denne use case
+\begin{usecase}
+
+\addtitle{Use Case 2}{Indtast data} 
+
+\addfield{Goal:}{mål!}
+
+\additemizedfield{Initiatet by:}{
+	\item Bruger
+	\item noget
+}
+
+\addfield{Actors:}{End-User}
+
+\addfield{Concurrent occurances:}{1}
+
+%Preconditions: What must be true on start and worth telling the reader?
+\addfield{Preconditions:}{}
+
+%Postconditions: What must be true on successful completion and worth telling the reader
+\addfield{Postconditions:}{}
+
+%Main Success Scenario: A typical, unconditional happy path scenario of success.
+\addscenario{Main Success Scenario:}{
+	\item The first action
+	\item The second action
+}
+
+%Extensions: Alternate scenarios of success or failure.
+\addscenario{Extensions:}{
+	\item[2.a] Invalid login data:
+		\begin{enumerate}
+		\item[1.] System shows failure message
+		\item[2.] User returns to step 1
+		\end{enumerate}
+	\item[5.a] Invalid subsriber data:
+		\begin{enumerate}
+		\item[1.] System shows failure message
+		\item[2.] User returns to step 2 and corrects the errors
+		\end{enumerate}
+}
+
+
+\end{usecase}
