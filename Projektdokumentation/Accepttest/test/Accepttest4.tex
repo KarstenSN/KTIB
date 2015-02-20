@@ -1,0 +1,32 @@
+%!TEX root = ../main.tex
+
+\begin{table}[H]
+\centering
+{\rowcolors{2}{white!80!black!30}{white!70!black!60} %farver på hver anden række -starter på 3
+\setlength{\arrayrulewidth}{0.2mm}					 %tykkelse på linier 
+\setlength{\tabcolsep}{10pt}						 %indryk i celle 
+\renewcommand{\arraystretch}{1.5}					 %højden på tabelrum
+\center
+\begin{tabular}{ |p{2cm}|p{2cm}|p{2cm}|p{5.1cm}|}		 %længden på alle rum
+\hline
+
+\multicolumn{4}{|>{\columncolor{white!20!black!90}}m{13.27cm}|}{\textcolor{white}{\large{\textbf{Accepttest Use Case 4 Kar styring}}}} \\\hline
+\rowcolor{white!70!black!60}
+\textcolor{black}{\large{\textbf{Test}}}&
+\textcolor{black}{\large{\textbf{Forventet resultat}}}&	
+\textcolor{black}{\large{\textbf{Resultat}}}&
+\textcolor{black}{\large{\textbf{Godkendt/Kommentar}}}\\
+\hline
+Test1	 	& Hat1	 	& Top 	& X - Det lort!\\
+Test2  	 	& TopHat	& Hat 	& X - Mangler Top\\
+Test3 	 	& KatHat 	& Kat 	& X - hvor er Hat\\
+Test4   	& Hat2 		& Flaf 	& X - Flaf???\\
+Test5 		& Top		& Mus 	& X - HUH?\\
+Test6 		& Flaf 		& Hus   & X - No flaf\\
+Test7 		& HatFlaf	& Tis 	& X - Ingen Tis\\
+\hline
+\end{tabular}
+}
+\caption{Accepttest 4}
+\label{table:Atest4}
+\end{table}
