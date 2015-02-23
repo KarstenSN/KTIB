@@ -1,8 +1,6 @@
 # KTIB
 E3PRJ3-02
 
-flaf
-
 Kalender
 http://kalledk.github.io/KTIB/
 
