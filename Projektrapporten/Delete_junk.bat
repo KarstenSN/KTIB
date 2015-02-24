@@ -10,3 +10,7 @@ del "*.lox" /s
 del "*.tps" /s
 del "*.nlo" /s
 del "*.gz" /s
+del "*.glo" /s
+del "*.glg" /s
+del "*.ist" /s
+del "*.gls" /s

@@ -12,7 +12,7 @@ I denne use case ønsker brugeren at tilføre vand manuelt til planterne. Denne 
 
 \addfield{Aktør:}{Bruger}
 
-\addfield{Samtidige forekomster:}{1-Antal kar}
+\addfield{Samtidige forekomster:}{1-Antal \gls{vandkar}}
 
 %Preconditions: What must be true on start and worth telling the reader?
 \addfield{Prækondition:}{Der skal være vand i det kar der ønskes at vande fra. Der er indtastet system data fra UC2.}
@@ -24,8 +24,8 @@ I denne use case ønsker brugeren at tilføre vand manuelt til planterne. Denne 
 \addscenario{Hovedscenario:}{
 	\item Bruger tilgår userinterfacet.
 	\item Bruger vælger i menuen "Manuel vanding".
-	\item System tilføre vand til planterne
-	\item System stopper når den ønskede jordfugtighed er nået.
+	\item System tilføre vand til \glslink{plante}{planterne}
+	\item System stopper når den ønskede fugtighed i \glslink{gromedie}{gromediet} er nået.
 }
 
 %Extensions: Alternate scenarios of success or failure.
