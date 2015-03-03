@@ -9,6 +9,8 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   git commit -m "Travis CI"
   git push origin master
   
+  cd $TRAVIS_BUILD_DIR
+  
   mkdir sharetex_dokumentation
   cd sharetex_dokumentation
   git clone https://${GH_TOKEN}@github.com/KalleDK/KTIB_Dokumentation.git . > /dev/null 2>&1
