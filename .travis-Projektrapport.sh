@@ -2,7 +2,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   # Fix inputs da vi flytter mapperne
   find Latex/ -name *.tex -exec sed -i.bak s/..\\/Latex\\///g {} \;
   sed -i.bak s/..\\/Latex\\///g Projektdokumentation/Main.tex
-  sed -i.bak s/..\\/Latex\\///g Projektrapport/Main.tex
+  sed -i.bak s/..\\/Latex\\///g Projektrapporten/Main.tex
   find . -name *.bak -delete
   
   cd $TRAVIS_BUILD_DIR
