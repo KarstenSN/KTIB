@@ -1,0 +1,14 @@
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/CortexM0/ARM_GCC_484/Debug/cyfitter_cfg.o : D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/CyLib.h D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cyfitter.h D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cytypes.h D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c 
+
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c : 
+

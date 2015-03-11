@@ -1,0 +1,5 @@
+D:\Dropbox\Team Awesomeness Awesome\RS232\Test232485.cydsn\Test232485.cyprj|f0d5082e-9443-432a-9236-2da8f2549865
+C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|35e11a75-64a4-4729-813c-23eb24b1153f
+C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|df5023fc-8e40-4cf6-bc00-a1afa0b1b373
+C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|6574dfe4-fd75-4b10-b63a-37eb2ace6d3a
+C:\Program Files (x86)\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|d9ec47dd-57e8-4db1-8e97-1462a35d01c9

@@ -1,0 +1,13 @@
+# Test232485
+# 2015-03-09 08:19:45Z
+
+# IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 2
+# IO_3@[IOP=(3)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 3 3
+set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
+set_io "Pin_PB(0)" iocell 0 7
+set_io "Pin_R(0)" iocell 1 6
+set_io "Pin_rts(0)" iocell 0 0
+set_io "Rx_1(0)" iocell 0 1
+set_io "Tx_1(0)" iocell 0 2

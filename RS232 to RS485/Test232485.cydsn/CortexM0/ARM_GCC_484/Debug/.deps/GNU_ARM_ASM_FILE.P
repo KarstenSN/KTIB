@@ -1,0 +1,8 @@
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/CortexM0/ARM_GCC_484/Debug/CyBootAsmGnu.o : D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cyfittergnu.inc D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s 
+
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc : 
+
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/cyfittergnu.inc : 
+
+D:/Dropbox/Team\ Awesomeness\ Awesome/RS232/Test232485.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s : 
+
