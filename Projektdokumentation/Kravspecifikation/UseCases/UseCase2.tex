@@ -1,5 +1,5 @@
 \subsection{Use case 2}
-En bruger kan indtaste de ønskede data der er til de forskellige set-punkter. Denne use case kan kun styres af en bruger da der kun er en \gls{gui}. For at dette kan gennemløbes skal  systemet være operativt. Efter usecasen er gennemløbet forventes data at være indtastet og gemt i systemmet.   
+En bruger kan indtaste de ønskede data der er til de forskellige set-punkter. Denne use case kan kun styres af en bruger da vi ikke vil supportere mere. For at dette kan gennemløbes skal  systemet være operativt. Efter usecasen er gennemløbet forventes data at være indtastet og gemt.
 \begin{usecase}
 
 \addtitle{Use Case 2}{Indtast data} 
@@ -26,9 +26,12 @@ En bruger kan indtaste de ønskede data der er til de forskellige set-punkter. D
 
 %Main Success Scenario: A typical, unconditional happy path scenario of success.
 \addscenario{Hovedscenarie:}{
-	\item bruger tilgår systemet via \glslink{gui}{gui'en}
-	\item Bruger indtaster ønskede data
-	\item bruger gemmer værdier 	
+	\item Bruger tilgår systemets \gls{gui} ved at indtaste \gls{mgmturl} i sin browser
+	\item Bruger vælger det ønskede \gls{kar}
+	\item Bruger finder den ønskede \gls{sensoroe}
+	\item Bruger indtaster den ønskede jordfugtighed
+	\item Bruger vælger gem
+	\item Systemet gemmer nu værdierne
 }
 
 \end{usecase}

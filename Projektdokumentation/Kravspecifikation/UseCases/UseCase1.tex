@@ -1,5 +1,6 @@
 \subsection{Use case 1}
-Når brugeren ønsker at aflæse målingerne, skal data aflæses via \glslink{gui}{gui'en}. Denne use case kan kun gennemføres af en person da der kun er en \gls{gui}. 
+Når brugeren ønsker at aflæse målingerne, skal data aflæses via \glslink{gui}{gui'en}. Denne use case kan kun gennemføres af en person da vi kun supportere dette.
+ 
 \begin{usecase}
 
 \addtitle{Use Case 1}{Aflæs målinger} 
@@ -20,9 +21,9 @@ Når brugeren ønsker at aflæse målingerne, skal data aflæses via \glslink{gu
 
 %Main Success Scenario: A typical, unconditional happy path scenario of success.
 \addscenario{Hovedscenario:}{
-	\item Bruger tilgår systemet via \glslink{gui}{gui'en}
-	\item Systemet fremkommer med forside indeholdende opsætning og aflæsning af måledata mm.
-	\item Bruger aflæser de ønskede målinger i skærmbilledets venstre kolonne
+	\item Bruger tilgår systemets \gls{gui} ved at indtaste \gls{mgmturl} i sin browser
+	\item Bruger vælger det ønskede \gls{kar}
+	\item Bruger kan nu aflæse de ønskede værdier for dette \gls{kar}
 }
 
 %Extensions: Alternate scenarios of success or failure.
