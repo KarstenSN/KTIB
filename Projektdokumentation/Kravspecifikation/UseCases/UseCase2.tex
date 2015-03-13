@@ -1,34 +1,37 @@
-\subsection{Usecase 2}
-En bruger kan indtaste de ønskede data der er til de forskellige set-punkter. Denne use case kan kun styres af en bruger da der kun er et interface. For at dette kan gennemløbes skal  systemmet være operativt. Efter usecasen er gennemløbet forventes data at være indtastet og gemt i systemmet.   
+\subsection{Use case 2}
+I denne use case ønsker brugeren at tilføre vand manuelt til planterne. Denne use case kan kun tilgås en person, der der kun er en interface. For at denne use case kan gennemløbes skal der være vand i det kar der ønskes at vandes fra og der er indtastet systemdata som blev indtastet i use case 2.
 \begin{usecase}
 
-\addtitle{Use Case 2}{Indtast data} 
+\addtitle{Use Case 2}{Manuel vanding} 
 
-\addfield{Mål:}{Indtastet data for diverse setpunkter}
+\addfield{Mål:}{At tilføre vand til planterne}
 
 \additemizedfield{Initieret af:}{
 	\item Bruger
-	\item Tekniker
 }
 
-\additemizedfield{Aktør:}{
-	\item Primær: Bruger
-	\item sekundær: Tekniker
-}
+\addfield{Aktør:}{Bruger}
 
-\addfield{Samtidige forekomster:}{1}
+\addfield{Samtidige forekomster:}{1-Antal kar}
 
 %Preconditions: What must be true on start and worth telling the reader?
-\addfield{Prækondition:}{Systemmet er operativt}
+\addfield{Prækondition:}{Der skal være vand i det kar der ønskes at vande fra. Der er indtastet system data fra UC2.}
 
 %Postconditions: What must be true on successful completion and worth telling the reader
-\addfield{Postkondition:}{Data er indtastet}
+\addfield{Postkonditions:}{Der er vand ved planterne}
 
 %Main Success Scenario: A typical, unconditional happy path scenario of success.
-\addscenario{Hovedscenarie:}{
-	\item bruger tilgår webinterfacet  
-	\item Bruger indtaster ønskede data
-	\item bruger gemmer værdier 	
+\addscenario{Hovedscenario:}{
+	\item Bruger tilgår userinterfacet.
+	\item Bruger vælger i menuen "Manuel vanding".
+	\item System tilføre vand til planterne
+	\item System stopper når den ønskede jordfugtighed er nået.
 }
+
+%Extensions: Alternate scenarios of success or failure.
+%\addscenario{Extensions:}{
+
+%}
+
 
 \end{usecase}
